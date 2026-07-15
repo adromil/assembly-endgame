@@ -24,7 +24,7 @@ export default function GameStatus({ isGameOver, isWinner, isGameLost, remaining
       <output className="status status--lose">
         <span className="status__label">STATUS</span>
         <span className="status__value">
-          SEGFAULT — every language retired. Only ASM was left.
+          SEGFAULT — every language retired. Only Assembly(ASM) was left.
         </span>
       </output>
     );

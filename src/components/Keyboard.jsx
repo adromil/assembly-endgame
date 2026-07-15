@@ -6,7 +6,7 @@ const ROWS = [
 
 export default function Keyboard({ guessedLetters, word, isGameOver, onGuess }) {
   return (
-    <div className="keyboard" role="group" aria-label="Letter keyboard">
+    <fieldset className="keyboard" aria-label="Letter keyboard">
       {ROWS.map((row) => (
         <div className="keyboard__row" key={row[0]}>
           {row.map((letter) => {
@@ -35,6 +35,6 @@ export default function Keyboard({ guessedLetters, word, isGameOver, onGuess }) 
           })}
         </div>
       ))}
-    </div>
+    </fieldset>
   );
 }
