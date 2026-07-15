@@ -13,7 +13,6 @@ export default function Confetti({ trigger }) {
     <canvas
       ref={canvasRef}
       className="confetti"
-      aria-hidden="true"
     />
   );
 }
